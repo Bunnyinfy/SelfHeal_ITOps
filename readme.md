@@ -1,0 +1,42 @@
+# Python
+
+pycache/
+_.py[cod]
+_.pyo
+_.pyd
+_.so
+\*.egg-info/
+.eggs/
+
+# Virtual environments
+
+venv/
+.env/
+.env.bak/
+.envrc
+.venv/
+env/
+
+# OS / IDE
+
+.DS_Store
+\*.swp
+.idea/
+.vscode/
+
+# Logs
+
+\*.log
+logs/
+data/incident_logs.jsonl
+
+# Cache / build
+
+.cache/
+build/
+dist/
+
+# Secrets
+
+\*.env
+.env.local
