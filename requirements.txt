@@ -12,5 +12,5 @@ langchain-community>=0.2.3
 faiss-cpu>=1.8.0
 sentence-transformers>=2.7.0
 
-# Optional LLM providers
+# Optional LLM provider
 openai>=1.37.0
