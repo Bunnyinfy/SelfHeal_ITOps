@@ -33,7 +33,6 @@ Traditional incident management is often:
 - **Pydantic** – Data validation  
 - **Asyncio** – Asynchronous orchestration  
 - **JSONL** – Structured incident logging  
-- **Docker (optional)** – Containerized deployment  
 
 ## API Usage
 
@@ -89,9 +88,3 @@ Each log contains:
 - Cloud deployment (AWS, GCP, Azure)  
 - Integration with collaboration platforms (Slack, Teams)  
 
----
-
-## Contributing
-Contributions are welcome. Please open an issue before submitting a pull request to discuss potential changes.
-
----
