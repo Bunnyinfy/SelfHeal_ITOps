@@ -3,8 +3,6 @@
 Self-Heal ITOps is an AI-powered incident self-healing system designed to automatically detect, analyze, and resolve IT operational issues.  
 It leverages agent-based architecture to reduce downtime, improve system reliability, and minimize manual intervention.
 
----
-
 ## Problem Statement
 IT operations frequently face incidents such as service failures, misconfigurations, and system crashes.  
 Traditional incident management is often:
@@ -13,8 +11,6 @@ Traditional incident management is often:
 - Costly  
 
 **Self-Heal ITOps** introduces a proactive and automated approach to incident detection, analysis, and resolution.
-
----
 
 ## Architecture
 
@@ -30,8 +26,6 @@ Traditional incident management is often:
 3. Analyzer evaluates the incident and suggests a fix.  
 4. Fixer applies the solution.  
 5. Supervisor verifies resolution and closes the incident.  
-
----
 
 ## Tech Stack
 - **Python 3.11+**  
@@ -69,8 +63,6 @@ POST /publish_event
 }
 ```
 
----
-
 ## Incident Logs
 All incidents are logged in JSONL format at:
 ```
@@ -84,15 +76,12 @@ Each log contains:
 - `analysis`  
 - `resolution`  
 
----
 
 ## Key Features
 - Automated incident detection, analysis, and resolution  
 - Modular agent-based design for flexibility  
 - Structured logging for audit and review  
 - Scalable for enterprise IT operations  
-
----
 
 ## Future Enhancements
 - Integration with monitoring tools (Prometheus, Grafana)  
