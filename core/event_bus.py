@@ -8,7 +8,6 @@ class Event(BaseModel):
     source: str = "simulator"
     payload: Dict[str, Any] = {}
     ts: float = Field(default_factory=lambda: time.time())
-
 class EventBus:
     def __init__(self):
         self.queue: asyncio.Queue[Event] = asyncio.Queue()
